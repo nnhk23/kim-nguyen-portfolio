@@ -1,0 +1,36 @@
+:root{
+    --primary-red: #fc4d4d;
+    --primary-dark: rgba(255, 255, 255, 0);
+}
+
+#kn-logo {
+    height: 4rem;
+    width: 4rem;
+}
+
+.navbar-brand {
+    padding: 0.625rem;
+    margin-left: 1.875rem;
+}
+
+nav {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav a.nav-link {
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    padding-right: 2.5rem;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    border-bottom: 0.1975rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover, .navbar-nav > li > a.active:focus {
+    border-bottom: 0.1975rem solid var(--primary-red);
+}
