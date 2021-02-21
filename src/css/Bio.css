@@ -1,16 +1,21 @@
 .bio-pic {
-    width: 28.125rem;
-    height: 29.375rem;
+    width: 25.125rem;
+    height: 26.375rem;
     border-radius: 50%;
 }
 
 .bio-wraper {
     padding-left: 8rem;
     padding-right: 8rem;
+    padding-top: 5rem;
 }
 
 .bio-pic1 {
     padding-top: 4rem;
-    width: 24rem;
+    width: 20rem;
     height: 31rem;
+}
+
+.pic-wraper {
+    text-align: center;
 }

@@ -5,6 +5,7 @@ h1 {
 #header-content {
     color: white;
     font-size: 7rem;
+    padding-top: 10rem;
 }
 
 .header-script {
@@ -14,5 +15,4 @@ h1 {
 .header-wraper {
     height: 100vh;
     text-align: center;
-    
 }
