@@ -1,15 +1,16 @@
 h1 {
-    font-family: 'Libre Baskerville', serif;   
+    font-family: 'Cabin', sans-serif;
 }
 
 #header-content {
-    color: white;
-    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
     padding-top: 10rem;
 }
 
 .header-script {
     font-size: 3rem;
+    color: rgb(255, 255, 255);
 }
 
 .header-wraper {

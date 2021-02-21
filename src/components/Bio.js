@@ -3,22 +3,25 @@ import '../css/Bio.css'
 
 const Bio = () => {
     return (
-        <div data-aos="fade-down" className="bio-wraper">
+        <div data-aos="fade-down" className="bio-wraper" id="about-me">
             <div className="media">
                 <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/152206692_3530165700542088_953636773481511024_n.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=vbzj0GigSzcAX_vt4SY&_nc_ht=scontent-sjc3-1.xx&oh=cc7d90371a8e8b36ac366ebf0107f8f3&oe=60588949" className="mr-3 bio-pic" alt="bio-pic" />
                 <div className="media-body">
                     <h1 className="mt-0">Looking for my work?</h1>
-                    <h5>That's awesome but let's break the ice a little!</h5>
+                    <h6>That's awesome but let's break the ice a little!</h6>
                     <p>
-                        Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endlessly curious about the world. 
+                        <h5>
+                        Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endlessly curious about the world.</h5> 
                     </p>
 
                     <p>
-                        My healthcare and customer service background really honed my communication and collaborative skills, I strongly believe I would be a good fit in any team. I commit to write clean and testable code. I always refer to myself as a beta version: constantly updating everyday. Kindness is always the correct way to go.
+                        <h5>
+                        My healthcare and customer service background really honed my communication and collaborative skills, I strongly believe I would be a good fit in any team. I commit to write clean and testable code. I always refer to myself as a beta version: constantly updating everyday. Kindness is always the correct way to go.</h5>
                     </p>
 
                     <p>
-                        Intrigued by traveling, hiking, photography and gaming.
+                        <h5>
+                        Intrigued by traveling, hiking, photography and gaming.</h5>
                     </p>
 
                 </div>

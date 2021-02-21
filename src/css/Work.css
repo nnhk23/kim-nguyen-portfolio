@@ -1,0 +1,60 @@
+#work {
+    padding-top: 8rem;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#makegotchi {
+    background-color: #d3bfe8;
+}
+
+#hipstew {
+    background-color: #bfb29e;
+}
+
+#petopia {
+    background-color: #ca889b;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

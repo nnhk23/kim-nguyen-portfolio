@@ -44,3 +44,7 @@ nav a.nav-link {
     border-bottom: 0.1975rem solid var(--primary-beige);
     color: rgb(235, 234, 204);
 }
+
+.collapse-wraper {
+    text-align: right;
+}

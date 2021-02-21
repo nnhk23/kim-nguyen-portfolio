@@ -7,11 +7,11 @@ export default class CardComponent extends Component {
     render() {
         return (
             <div className="card-wraper">
-                <div id="about-me">
+                <div>
                     <Bio />
                 </div>
 
-                <div id='work'>
+                <div>
                     <Work />
                 </div>
                 {/* Projects */}

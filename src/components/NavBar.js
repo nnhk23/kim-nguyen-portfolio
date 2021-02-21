@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export const NavBar = () => {
-    const [navbar, setNavbar] = useState(false)
+    const [navbar, setNavbar] = useState(false);
+    const [navbg, setNavbg] = useState(false);
 
     const changeBackground = () => {
         if(window.scrollY > 220){
@@ -17,24 +18,28 @@ export const NavBar = () => {
 
     window.addEventListener('scroll', changeBackground)
 
+    const navBackground = navbg ? 'rgb(247 213 213 / 85%)': ''
+
+    const handleClick = () => setNavbg(!navbg)
+
     return (
         <nav className={navbar ? "navbar active fixed-top navbar-expand-lg" : "navbar fixed-top navbar-expand-lg"}>
-            <a className="navbar-brand" href="#header-content">
+            <a className="navbar-brand" href="#header">
                 <img id="kn-logo" src={logo} alt='logo'/>
             </a>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={handleClick} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{"color" : "#ffffff"}} />
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse collapse-wraper" id="navbarSupportedContent" style={{"background" : navBackground}}>
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <a className="nav-link" href="#about-me">ABOUT<span className="sr-only">(current)</span></a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#header-content">WORK</a>
+                        <a className="nav-link" href="#work">WORK</a>
                     </li>
                     
                     <li className="nav-item">
