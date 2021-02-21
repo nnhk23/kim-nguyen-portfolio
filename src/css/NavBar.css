@@ -42,4 +42,5 @@ nav a.nav-link {
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     border-bottom: 0.1975rem solid var(--primary-beige);
+    color: rgb(235, 234, 204);
 }

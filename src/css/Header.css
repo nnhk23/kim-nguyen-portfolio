@@ -1,12 +1,18 @@
+h1 {
+    font-family: 'Libre Baskerville', serif;   
+}
+
 #header-content {
-    font-family: 'Libre Baskerville', serif;
     color: white;
+    font-size: 7rem;
 }
 
 .header-script {
-    font-size: 1.25rem;
+    font-size: 3rem;
 }
 
 .header-wraper {
     height: 100vh;
+    text-align: center;
+    
 }

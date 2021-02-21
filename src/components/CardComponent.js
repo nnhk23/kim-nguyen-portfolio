@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Bio from './Bio.js'
 import '../css/CardComponent.css'
 
-export const CardComponent = () => {
-    return (
-        <div className='card-wraper'>
-            <h1>I'm Card Component</h1>
-            {/* About Me */}
-            {/* Projects */}
-            {/* Resume */}
-            {/* Contact Form */}
-        </div>
-    )
+export default class CardComponent extends Component {
+    render() {
+        return (
+            <div className="card-wraper">
+                <div id="about-me">
+                    <Bio />
+                </div>
+                {/* Projects */}
+                {/* Resume */}
+                {/* Contact Form */}
+            </div>
+        )
+    }
 }
+

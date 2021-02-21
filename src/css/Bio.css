@@ -1,0 +1,17 @@
+.bio-pic {
+    width: 28.125rem;
+    height: 29.375rem;
+    border-radius: 50%;
+}
+
+.bio-wraper {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.bio-pic1 {
+    padding-top: 4rem;
+    /* padding-right: 1rem; */
+    width: 24rem;
+    height: 31rem;
+}
