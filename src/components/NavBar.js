@@ -5,7 +5,7 @@ import logo from '../img/beige-logo.png'
 export const NavBar = () => {
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light" style={{"backgroundColor": "rgb(249 238 244)"}}>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#header-content">
                 <img id="kn-logo" src={logo} alt='logo'/>
             </a>
 
