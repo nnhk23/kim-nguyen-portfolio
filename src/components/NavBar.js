@@ -1,10 +1,10 @@
 import React from 'react'
 import '../css/NavBar.css'
-import logo from '../img/1b486986d44d49f4a188ea2949e429b2.png'
+import logo from '../img/beige-logo.png'
 
 export const NavBar = () => {
     return (
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light" style={{"backgroundColor": "#ffffff"}}>
             <a className="navbar-brand" href="#">
                 <img id="kn-logo" src={logo} alt='logo'/>
             </a>

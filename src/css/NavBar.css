@@ -1,11 +1,12 @@
 :root{
-    --primary-red: #fc4d4d;
+    --primary-beige: #fcdebe;
     --primary-dark: rgba(255, 255, 255, 0);
 }
 
 #kn-logo {
-    height: 4rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 40px;
 }
 
 .navbar-brand {
@@ -32,5 +33,5 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:hover, .navbar-nav > li > a.active:focus {
-    border-bottom: 0.1975rem solid var(--primary-red);
+    border-bottom: 0.1975rem solid var(--primary-beige);
 }
