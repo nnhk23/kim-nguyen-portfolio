@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react';
 import '../css/NavBar.css'
 import logo from '../img/beige-logo.png'
 
 export const NavBar = () => {
+    const [navbar, setNavbar] = useState(false)
+
+    const changeBackground = () => {
+        if(window.scrollY > 220){
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
-        <nav className="navbar sticky-top navbar-expand-lg navbar-light" style={{"backgroundColor": "rgb(249 238 244)"}}>
+        <nav className={navbar ? "navbar active sticky-top navbar-expand-lg" : "navbar sticky-top navbar-expand-lg"}>
             <a className="navbar-brand" href="#header-content">
                 <img id="kn-logo" src={logo} alt='logo'/>
             </a>

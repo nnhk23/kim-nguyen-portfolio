@@ -1,7 +1,12 @@
-/* .header-wraper {
-    position: relative;
-    background: url("../img/arno-smit-sKJ7zSylUao-unsplash.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-} */
+#header-content {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+.header-script {
+    font-size: 1.25rem;
+}
+
+.header-wraper {
+    height: 100vh;
+}
