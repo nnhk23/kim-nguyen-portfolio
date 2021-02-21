@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito:wght@700&display=swap');
 
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background: url("../img/antonio-ron-K2KL5NRvbxY-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* inset offset-x offset-y blur-radius spread-radius */
+  box-shadow: inset 0 0 10rem 1.5rem rgb(0, 0, 0);
+  height: 100vh;
 }
 
 .App-logo {
