@@ -1,0 +1,33 @@
+.bio-pic {
+    width: 25.125rem;
+    height: 26.375rem;
+    border-radius: 50%;
+}
+
+.bio-wraper {
+    padding: 5rem 8rem;
+    background-color: rgb(244, 240, 240);
+}
+
+.bio-pic1 {
+    padding-top: 4rem;
+    width: 20rem;
+    height: 31rem;
+}
+
+.pic-wraper {
+    text-align: center;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.resume-file{
+    color: black;
+}
+
+.social-media {
+    padding-right: 2rem;
+}

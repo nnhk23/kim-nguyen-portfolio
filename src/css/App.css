@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 
 .App {
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
   position: relative;
   background: url("../img/antonio-ron-K2KL5NRvbxY-unsplash.jpg") no-repeat;
@@ -22,6 +22,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App-header {

@@ -1,12 +1,19 @@
+h1 {
+    font-family: 'Cabin', sans-serif;
+}
+
 #header-content {
-    font-family: 'Libre Baskerville', serif;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    padding-top: 10rem;
 }
 
 .header-script {
-    font-size: 1.25rem;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
 }
 
 .header-wraper {
     height: 100vh;
+    text-align: center;
 }
