@@ -28,7 +28,7 @@ const Bio = () => {
                         </h5>
                     </p>
                     
-                    <p>
+                    <p className='social-wraper'>
                         <a href="https://www.instagram.com/itmekimmese/" target='_blank' rel="noreferrer" className='social-media'>
                             INSTAGRAM 
                         </a>
