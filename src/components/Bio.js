@@ -37,7 +37,7 @@ const Bio = () => {
                             TWITTER 
                         </a>
 
-                        <a href="dev.to/kimmese" target='_blank' rel="noreferrer" className='social-media'>
+                        <a href="https://dev.to/kimmese" target='_blank' rel="noreferrer" className='social-media'>
                             DEV 
                         </a>
                         <a href="https://www.linkedin.com/in/kim-nguyen-0623" target='_blank' rel="noreferrer" className='social-media'>
