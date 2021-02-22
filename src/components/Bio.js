@@ -27,7 +27,22 @@ const Bio = () => {
                         </h5>
                     </p>
                     
-                    
+                    <p>
+                        <a href="https://www.instagram.com/itmekimmese/" target='_blank' rel="noreferrer" className='social-media'>
+                            INSTAGRAM 
+                        </a>
+
+                        <a href="https://twitter.com/kimmese_" target='_blank' rel="noreferrer" className='social-media'>
+                            TWITTER 
+                        </a>
+
+                        <a href="dev.to/kimmese" target='_blank' rel="noreferrer" className='social-media'>
+                            DEV 
+                        </a>
+                        <a href="https://www.linkedin.com/in/kim-nguyen-0623" target='_blank' rel="noreferrer" className='social-media'>
+                            LINKEDIN 
+                        </a>
+                    </p>
 
                 </div>
             </div>
