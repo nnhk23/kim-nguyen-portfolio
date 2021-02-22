@@ -6,7 +6,8 @@
 
 .bio-wraper {
     padding: 5rem 8rem;
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(43, 43, 43);
+    color: white;
 }
 
 .bio-pic1 {
@@ -29,5 +30,15 @@
 }
 
 .social-media {
-    padding-right: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #df744a;
+    letter-spacing: 0.05rem;
+}
+
+.social-media:hover, .social-media:focus {
+    color: #df977b;
+    text-decoration: none;
+    border-bottom: solid #df977b;
 }
