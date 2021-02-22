@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Bio from './Bio.js'
 import Work from './Work.js'
+import ContactForm from './ContactForm.js'
 import '../css/CardComponent.css'
 
 export default class CardComponent extends Component {
@@ -14,8 +15,10 @@ export default class CardComponent extends Component {
                 <div>
                     <Work />
                 </div>
-                {/* Projects */}
-                {/* Resume */}
+                
+                <div>
+                    <ContactForm />
+                </div>
                 {/* Contact Form */}
             </div>
         )

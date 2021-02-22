@@ -11,18 +11,23 @@ const Bio = () => {
                     <h6>That's awesome but let's break the ice a little!</h6>
                     <p>
                         <h5>
-                        Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endlessly curious about the world.</h5> 
+                            Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endlessly curious about the world.
+                        </h5> 
                     </p>
 
                     <p>
                         <h5>
-                        My healthcare and customer service background really honed my communication and collaborative skills, I strongly believe I would be a good fit in any team. I commit to write clean and testable code. I always refer to myself as a beta version: constantly updating everyday. Kindness is always the correct way to go.</h5>
+                            My healthcare and customer service background really honed my communication and collaborative skills, I strongly believe I would be a good fit in any team. I commit to write clean and testable code. I always refer to myself as a beta version: constantly updating everyday. Kindness is always the correct way to go.
+                        </h5>
                     </p>
 
                     <p>
                         <h5>
-                        Intrigued by traveling, hiking, photography and gaming.</h5>
+                            Intrigued by traveling, hiking, photography and gaming.
+                        </h5>
                     </p>
+                    
+                    
 
                 </div>
             </div>

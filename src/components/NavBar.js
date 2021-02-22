@@ -3,6 +3,7 @@ import '../css/NavBar.css'
 import logo from '../img/beige-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import resume from "../doc/KimNguyenResume.pdf"
 
 export const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -42,8 +43,19 @@ export const NavBar = () => {
                         <a className="nav-link" href="#work">WORK</a>
                     </li>
                     
-                    <li className="nav-item">
-                        <a className="nav-link" href="#header-content">RESUME</a>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#header" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            RESUME
+                        </a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href={resume} download className='resume-file dropdown-item'>
+                                Download PDF
+                            </a>
+
+                            <a href={resume} className='resume-file dropdown-item'>
+                                View
+                            </a>
+                        </div>
                     </li>
 
                     <li className="nav-item">

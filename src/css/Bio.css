@@ -5,7 +5,8 @@
 }
 
 .bio-wraper {
-    padding-top: 5rem;
+    padding: 5rem 8rem;
+    background-color: rgb(244, 240, 240);
 }
 
 .bio-pic1 {
@@ -16,4 +17,13 @@
 
 .pic-wraper {
     text-align: center;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.resume-file{
+    color: black;
 }
