@@ -6,22 +6,19 @@
 
 .bio-wraper {
     padding: 5rem 8rem;
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(43, 43, 43);
+    color: white;
 }
 
 .bio-pic1 {
-    padding-top: 4rem;
-    width: 20rem;
-    height: 31rem;
+    width: 28%;
+    height: 32rem;
+    border: 0.5rem solid white;
 }
 
 .pic-wraper {
     text-align: center;
-}
-
-.icon {
-    height: 2rem;
-    width: 2rem;
+    padding-top: 4rem;
 }
 
 .resume-file{
@@ -29,5 +26,20 @@
 }
 
 .social-media {
-    padding-right: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #df744a;
+    letter-spacing: 0.05rem;
+}
+
+.social-wraper {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.social-media:hover, .social-media:focus {
+    color: #df977b;
+    text-decoration: none;
+    border-bottom: solid #df977b;
 }

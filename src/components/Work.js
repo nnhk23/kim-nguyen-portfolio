@@ -5,7 +5,7 @@ import '../css/Work.css'
 const Work = () => {
     return (
         <div data-aos="fade-right" id='work'>
-            <h1>My Work</h1>
+            <h1 id="my-work">My Work</h1>
             <div className="container">
                 <img 
                     src="https://github.com/nnhk23/makegotchi-frontend/raw/master/src/images/tamaStore.png" 

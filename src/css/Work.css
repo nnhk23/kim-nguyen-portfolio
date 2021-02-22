@@ -2,6 +2,13 @@
     padding-top: 8rem;
     padding-left: 8rem;
     padding-right: 8rem;
+    background-color: rgb(240, 240, 239);
+    align-items: center;
+}
+
+#my-work {
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .container {
