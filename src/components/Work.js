@@ -4,9 +4,9 @@ import '../css/Work.css'
 
 const Work = () => {
     return (
-        <div data-aos="fade-right" id='work'>
-            <h1 id="my-work">My Work</h1>
-            <div className="container">
+        <div id='work'>
+            <h1 data-aos="fade-down" id="my-work">My Work</h1>
+            <div className="container" data-aos="fade-down">
                 <img 
                     src="https://github.com/nnhk23/makegotchi-frontend/raw/master/src/images/tamaStore.png" 
                     alt="makegotchi" 
@@ -38,7 +38,7 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container" data-aos="fade-up">
                 <img 
                     src={hipstew} 
                     alt="hipstew" 
@@ -67,7 +67,7 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container" data-aos="fade-down">
                 <img 
                     src="https://github.com/nnhk23/petopia-frontend/raw/main/src/images/chosen-cat.png" 
                     alt="petopia" 

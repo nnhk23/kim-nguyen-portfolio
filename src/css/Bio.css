@@ -4,6 +4,10 @@
     border-radius: 50%;
 }
 
+.second-bio-pic {
+    display: none;
+}
+
 .bio-wraper {
     padding: 5rem 8rem;
     background-color: rgb(43, 43, 43);
