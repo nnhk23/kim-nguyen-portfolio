@@ -8,7 +8,7 @@ const Bio = () => {
             <div className="media">
                 <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/152206692_3530165700542088_953636773481511024_n.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=vbzj0GigSzcAX_vt4SY&_nc_ht=scontent-sjc3-1.xx&oh=cc7d90371a8e8b36ac366ebf0107f8f3&oe=60588949" className="mr-3 bio-pic" alt="bio-pic" />
                 <div className="media-body">
-                    <h1 className="mt-0" style={{"color" : "#df744a"}}>Looking for my work?</h1>
+                    <h1 className="mt-0 bio-header" style={{"color" : "#df744a"}}>Looking for my work?</h1>
                     <h6 style={{"color" : "#8fd8d2"}}>That's awesome but let's break the ice a little!</h6>
                     <p>
                         <h5 id='bio-content'>

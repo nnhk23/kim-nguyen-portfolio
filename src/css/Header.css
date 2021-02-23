@@ -18,3 +18,16 @@ h1 {
     height: 100vh;
     text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+    #header-content {
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        padding-top: 10rem;
+    }
+
+    .header-script {
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+    }
+}
