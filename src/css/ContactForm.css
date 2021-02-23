@@ -1,27 +1,50 @@
-.form-wraper {
-    padding: 5rem 25rem 5rem 25rem;
-    position: relative;
-    background: url("../img/lake-tahoe.jpeg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+@media only screen and (max-width: 1500px) {
+    .form-wraper {
+        padding: 5rem 25rem 5rem 25rem;
+        position: relative;
+        background: url("../img/lake-tahoe.jpeg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    .form-info {
+        background-color: rgba(255, 255, 255, 0.81);
+        border-radius: 20px;
+        padding: 2rem 5rem;
+    }
+
+    .submit-btn {
+        background: linear-gradient(45deg, #f24e4ed9, #91a9e5) !important;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .customer-input {
+        border-radius: 0;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.11rem solid #a5b8e6;
+    }
 }
 
-.form-info {
-    background-color: rgba(255, 255, 255, 0.81);
-    border-radius: 20px;
-    padding: 2rem 5rem;
-}
+@media only screen and (max-width: 900px) {
+    .form-wraper {
+        padding: 0;
+        position: relative;
+        background: url("../img/lake-tahoe.jpeg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
 
-.submit-btn {
-    background: linear-gradient(45deg, #f24e4ed9, #91a9e5) !important;
-    border-radius: 5px;
-    border: none;
-}
-
-.customer-input {
-    border-radius: 0;
-    background-color: transparent;
-    border: none;
-    border-bottom: 0.11rem solid #a5b8e6;
+    .form-info {
+        background-color: rgba(255, 255, 255, 0.81);
+        border-radius: 20px;
+        padding: 2rem 3rem;
+        width: 80vw;
+        display: inline-block !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
