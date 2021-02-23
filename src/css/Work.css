@@ -20,7 +20,8 @@
     display: block;
     width: 100%;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .overlay {
@@ -34,18 +35,19 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
+    overflow-y: scroll;
 }
 
 #makegotchi {
-    background-color: #d3bfe8;
+    background-color: #d3bfe8e2;
 }
 
 #hipstew {
-    background-color: #bfb29e;
+    background-color: #bfb29ee3;
 }
 
 #petopia {
-    background-color: #ca889b;
+    background-color: #ca889bde;
 }
 
 h2 {
@@ -66,4 +68,63 @@ h2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+@media only screen and (max-width: 1450px) {
+    #work {
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: rgb(240, 240, 239);
+        align-items: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .text {
+        color: white;
+        font-size: 1.2rem;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        padding: 2rem;
+        transform: none;
+        position: unset;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    #work {
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: rgb(240, 240, 239);
+        align-items: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+
+    .text {
+        color: white;
+        font-size: 30px;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        padding: 1rem;
+    }
+
 }

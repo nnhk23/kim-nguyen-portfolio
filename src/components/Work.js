@@ -16,14 +16,16 @@ const Work = () => {
                     <div className="text">
                         <h2>Makegotchi</h2>
                         <p>
-                            MAKEGOTCHI derived from the Tamagotchi’s name itself and the first four letters are the initials of the 4 contributors of this app, Marisa You, Alexa Gamil, me, and Elaine Tolentino.
+                            MAKEGOTCHI's first four letters are the initials of the 4 contributors of this app, Marisa You, Alexa Gamil, me, and Elaine Tolentino.
                         </p>
                         <p>
-                            Our version of the Tamagotchi enables the user to adopt from a selection of Tamagotchis and interact with them by feeding, cleaning, tucking them into bed. Additionally the user can choose to play minigames and potentially earn or gamble coins. The coins can then be used to purchase additional pets.
+                            Our version of the Tamagotchi enables the user to adopt from a selection of Tamagotchis and interact with them by feeding, cleaning, tucking them into bed and the user can choose to play minigames and potentially earn or gamble coins. The coins can then be used to purchase additional pets.
                         </p>
 
+                        <h2>Technologies</h2>
+
                         <p>
-                            <h2>Technologies</h2> Ruby on Rails | React | React-Router | React-Bootstrap
+                            Ruby on Rails | React | React-Router | React-Bootstrap
                         </p>
 
                         <p>
@@ -49,8 +51,10 @@ const Work = () => {
                             Hipstew is built to help user look for recipes based on ingredients instead of name. You can also keep track of your fridge using a Fridge feature and also look up ingredients to add as well! There is also a chatbot, Stewy, who will assist you with conversion, recipe search or just to have a small talk with, be sure to check it out!
                         </p>
 
+                        <h2>Technologies</h2> 
+
                         <p>
-                            <h2>Technologies</h2> Ruby on Rails | React | React-Router | React-Bootstrap | External API | HTTP | JWT
+                            Ruby on Rails | React | React-Router | React-Bootstrap | External API | HTTP | JWT
                         </p>
 
                         <p>
@@ -76,8 +80,10 @@ const Work = () => {
                             Petopia is a foster website using real pets data from shelters. You can book a date with our pets and view it on a calendar.
                         </p>
 
+                        <h2>Technologies</h2>
+
                         <p>
-                            <h2>Technologies</h2> Vanilla Javascript | CSS | HTML | external API
+                             Vanilla Javascript | CSS | HTML | external API
                         </p>
 
                         <p>

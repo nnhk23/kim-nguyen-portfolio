@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     #header-content {
         color: rgb(255, 255, 255);
         font-size: 3rem;
