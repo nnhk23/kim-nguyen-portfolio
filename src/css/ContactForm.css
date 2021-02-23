@@ -25,3 +25,19 @@
     border: none;
     border-bottom: 0.11rem solid #a5b8e6;
 }
+
+@media only screen and (max-width: 1200px) {
+    .form-wraper {
+        padding: 0;
+    }
+
+    .form-info {
+        background-color: rgba(255, 255, 255, 0.81);
+        border-radius: 20px;
+        padding: 2rem 3rem;
+        width: 80vw;
+        display: inline-block !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

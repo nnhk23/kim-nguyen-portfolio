@@ -4,6 +4,10 @@
     border-radius: 50%;
 }
 
+.second-bio-pic {
+    display: none;
+}
+
 .bio-wraper {
     padding: 5rem 8rem;
     background-color: rgb(43, 43, 43);
@@ -42,4 +46,104 @@
     color: #df977b;
     text-decoration: none;
     border-bottom: solid #df977b;
+}
+
+@media only screen and (max-width: 1050px) {
+    .bio-pic {
+        width: 21rem;
+        height: 22rem;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    
+    .bio-wraper {
+        padding: 1rem 3rem;
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+
+    .pic-wraper {
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .bio-pic1 {
+        width: 80%;
+        height: 80%;
+        border: 1rem solid white;
+    }
+
+    .media-body {
+        width: 50vw;
+    }
+
+    .social-wraper {
+        display: inline-grid;
+        text-align: left;
+    }
+
+    .social-media {
+        letter-spacing: 0.05rem;
+        padding-right: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bio-pic {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+
+    .bio-wraper {
+        padding: 1rem 3rem;
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+
+    #bio-content {
+        font-size: 0.8rem !important;
+    }
+
+    .pic-wraper {
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .bio-pic1 {
+        width: 100%;
+        height: 100%;
+        border: 0.5rem solid white;
+    }
+
+    .bio-header, #my-work, #form-header {
+        font-size: 2rem !important;
+    }
+
+    .media-body {
+        width: 50vw;
+    }
+
+    .social-wraper {
+        display: inline-grid;
+        text-align: left;
+    }
+
+    .social-media {
+        letter-spacing: 0.05rem;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .bio-pic {
+        display: none;
+    }
+
+    .second-bio-pic {
+        display: flex;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+    }
 }

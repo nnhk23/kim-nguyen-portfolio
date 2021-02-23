@@ -13,12 +13,6 @@ class App extends Component {
         <NavBar />
         <Header />
         <CardComponent />
-        {/* original tagline */}
-        {/* about me */}
-        {/* technical projects */}
-        {/* contact form (send an email) */}
-        {/* resume (download in pdf form button) - tbd */}
-        {/* footer with linkedin/facebook/twitter/dev */}
       </div>
     )
   }
