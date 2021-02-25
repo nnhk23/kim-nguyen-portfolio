@@ -15,7 +15,7 @@ const Bio = () => {
                         <h6 style={{"color" : "#8fd8d2"}}>That's awesome but let's break the ice a little!</h6>
                         <p>
                             <h5 id='bio-content'>
-                                Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endlessly curious about the world.
+                                Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endless curiosity about the world.
                             </h5> 
                         </p>
 

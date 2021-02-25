@@ -31,7 +31,7 @@ const Work = () => {
                         <p>
                             <a href="https://github.com/nnhk23/makegotchi-frontend" target="_blank" rel="noreferrer" >Github </a>
                             |
-                            <a href="https://youtu.be/gPxU31_ZEXc" target="_blank" rel="noreferrer" > Demo</a>
+                            <a href="https://makegotchi.herokuapp.com/" target="_blank" rel="noreferrer" > Deployed App</a>
                         </p>
 
                     </div>
