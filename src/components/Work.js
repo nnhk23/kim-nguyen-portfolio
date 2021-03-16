@@ -16,7 +16,7 @@ const Work = () => {
                     <div className="text">
                         <h2>Makegotchi</h2>
                         <p>
-                            MAKEGOTCHI's first four letters are the initials of the 4 contributors of this app, Marisa You, Alexa Gamil, me, and Elaine Tolentino.
+                            MAKEGOTCHI's first four letters are the initials of the 4 contributors of this app, Marisa You, Alexa Gamil, me, and Ellaine Tolentino.
                         </p>
                         <p>
                             Our version of the Tamagotchi enables the user to adopt from a selection of Tamagotchis and interact with them by feeding, cleaning, tucking them into bed and the user can choose to play minigames and potentially earn or gamble coins. The coins can then be used to purchase additional pets.
