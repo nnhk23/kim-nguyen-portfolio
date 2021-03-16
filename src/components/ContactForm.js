@@ -25,6 +25,7 @@ class ContactForm extends Component {
             });
     
             this.resetForm()
+            alert('Thank you for saying hi, friend :).')
         }
 
     }
@@ -45,21 +46,28 @@ class ContactForm extends Component {
         return (
             <div className="form-wraper" id='contact-form'>
                 <form data-aos="zoom-in-down" className="form-info" onSubmit={this.handleSubmit}>
-                    <h1 style={{"color" : "#f24e4ed9"}} id='form-header'>Contact Me</h1>
-                    <h7 style={{color : 'rgb(156 165 224)'}}>Don't hesitate to contact me, let's have a talk!</h7>
-                    <div className="form-group">
+                    <h1 style={{"color" : "#f24e4ed9"}} id='form-header'>Hi Friend</h1>
+                    <h5 style={{color : 'rgb(156 165 224)'}}>How can I help you today?</h5>
+                    <div className="form-group" id='name-email'>
                         <input 
                             value={ name }
                             name="name" 
                             type="text" 
                             className="form-control customer-input" id="exampleInputEmail1" 
                             aria-describedby="emailHelp" 
-                            placeholder="Your Name" 
-                            onChange={this.handleChange}/>
-                    </div>
-
-                    <div className="form-group">
-                        <input value={ email } name="email" type="email" className="form-control customer-input" id="exampleInputPassword1" placeholder="Your Email" onChange={this.handleChange}/>
+                            placeholder="Name" 
+                            onChange={this.handleChange}
+                        />
+                    
+                        <input 
+                            value={ email } 
+                            name="email" 
+                            type="email" 
+                            className="form-control customer-input" 
+                            id="exampleInputPassword1" 
+                            placeholder="Email" 
+                            onChange={this.handleChange}
+                        />
                     </div>
 
                     <div className="form-group">
@@ -74,7 +82,7 @@ class ContactForm extends Component {
                         type="submit" 
                         className="btn btn-primary submit-btn"
                     >
-                        Send Your Message
+                        Send Your Greetings
                     </button>
                 </form>
             </div>

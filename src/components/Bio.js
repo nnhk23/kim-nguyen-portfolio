@@ -9,25 +9,25 @@ const Bio = () => {
                 <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/152206692_3530165700542088_953636773481511024_n.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=vbzj0GigSzcAX_vt4SY&_nc_ht=scontent-sjc3-1.xx&oh=cc7d90371a8e8b36ac366ebf0107f8f3&oe=60588949" className="second-bio-pic" alt="bio-pic" />
 
                 <div className="media">
-                    <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/152206692_3530165700542088_953636773481511024_n.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=vbzj0GigSzcAX_vt4SY&_nc_ht=scontent-sjc3-1.xx&oh=cc7d90371a8e8b36ac366ebf0107f8f3&oe=60588949" className="mr-3 bio-pic" alt="bio-pic" />
+                    {/* <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/152206692_3530165700542088_953636773481511024_n.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=vbzj0GigSzcAX_vt4SY&_nc_ht=scontent-sjc3-1.xx&oh=cc7d90371a8e8b36ac366ebf0107f8f3&oe=60588949" className="mr-3 bio-pic" alt="bio-pic" /> */}
                     <div className="media-body">
                         <h1 className="mt-0 bio-header" style={{"color" : "#df744a"}}>Looking for my work?</h1>
-                        <h6 style={{"color" : "#8fd8d2"}}>That's awesome but let's break the ice a little!</h6>
+                        <h6 style={{"color" : "#8fd8d2"}}>That's awesome but let's break the ice for a bit!</h6>
                         <p>
                             <h5 id='bio-content'>
-                                Hi, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for cats, coding and endless curiosity about the world.
+                                Xin Chào, I'm Kim Nguyen. A Full Stack Software Engineer based in California, born in Vietnam, with a huge love for coding, puzzle solving and endless curiosity about the world.
                             </h5> 
                         </p>
 
                         <p>
                             <h5 id='bio-content'>
-                                My healthcare and customer service background really honed my communication and collaborative skills, I strongly believe I would be a good fit in any team. I commit to write clean and testable code. I always refer to myself as a beta version: constantly updating everyday. Kindness is always the correct way to go.
+                                Aspire to utilize technology to help making people's life easier. Every problem has a solution, some just take a bit patience and loads of binding pry.
                             </h5>
                         </p>
 
                         <p>
                             <h5 id='bio-content'>
-                                Intrigued by traveling, hiking, photography and gaming.
+                                I'm a Grey's Anatomy, HIMYM, GoT fan, animal enthusiast, plant mom. I love playing ACNH, Splatoon, Among Us.
                             </h5>
                         </p>
                         

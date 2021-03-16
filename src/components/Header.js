@@ -8,7 +8,7 @@ export const Header = () => {
             <div className="main-info">
                 <h1 id="header-content">KIM NGUYEN</h1>
                 <Typed
-                    strings={['Full Stack Developer', 'Cat Lover', 'Vietnamese', 'She/Her']}
+                    strings={['Full Stack Developer', 'Animal Enthusiast', 'First-gen Vietnamese', 'She/Her', 'Plant-mom']}
                     typeSpeed={60}
                     backSpeed={60}
                     className="header-script"
