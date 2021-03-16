@@ -82,7 +82,7 @@ class ContactForm extends Component {
                         type="submit" 
                         className="btn btn-primary submit-btn"
                     >
-                        Send Your Greetings
+                        Submit
                     </button>
                 </form>
             </div>

@@ -14,10 +14,14 @@
 }
 
 .submit-btn {
-    transition: 500ms linear;
-    background: linear-gradient(40deg, #f24e4ed9, #91a9e5) !important;
-    border-radius: 5px;
-    border: none;
+    transition: 300ms linear;
+    background: #ffffffc1 !important;
+    border-radius: 1.5rem;
+    border-color: #f24e4ea3 !important;
+    border: 0.2rem solid;
+    color: #f24e4ea3;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 button:hover {
@@ -42,7 +46,7 @@ button:hover {
     }
 
     .form-info {
-        background-color: rgba(255, 255, 255, 0.81);
+        background-color: #ffffffcf;
         border-radius: 20px;
         padding: 2rem 3rem;
         width: 80vw;
