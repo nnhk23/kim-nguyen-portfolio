@@ -1,6 +1,7 @@
 import React from 'react'
 import resume from "../doc/KimNguyenResume.pdf"
 import bioPic from "../img/EC0C04CC-7A91-4C73-8012-A2D1D59EAC9F_1_105_c.jpeg"
+import pic1 from "../img/30D0633C-7187-4269-9EA9-E65495602934_1_105_c.jpeg"
 import '../css/Bio.css'
 
 const Bio = () => {
@@ -58,7 +59,7 @@ const Bio = () => {
             </div>
 
             <div data-aos="zoom-in" className='pic-wraper'>
-                <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/151998780_3530881040470554_4828346437796504355_n.jpg?_nc_cat=107&ccb=3&_nc_sid=0debeb&_nc_ohc=liqsOAfoyCAAX8eu9TU&_nc_ht=scontent-sjc3-1.xx&oh=98a6497f83ebc5258982f2f38f032872&oe=605773D0" alt='pic' className="bio-pic1"/>
+                <img src={pic1} alt='pic' className="bio-pic1"/>
             
                 <img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/66051309_2939240586301272_5408809253957795840_n.jpg?_nc_cat=102&ccb=3&_nc_sid=8bfeb9&_nc_ohc=wsZ6aB8j7ecAX8LxiLO&_nc_ht=scontent-sjc3-1.xx&oh=b542056cafcbe780c5ad6082c22752bc&oe=60567629' alt='pic' className="bio-pic1" />
 
