@@ -25,7 +25,7 @@ const Work = () => {
                         <h2>Technologies</h2>
 
                         <p>
-                            Ruby on Rails | React | React-Router | React-Bootstrap
+                            Ruby on Rails | React | React-Router | React-Bootstrap | custom CSS | JWT | PostgreSQL.
                         </p>
 
                         <p>
@@ -56,7 +56,7 @@ const Work = () => {
                         <h2>Technologies</h2> 
 
                         <p>
-                            Ruby on Rails | React | React-Router | React-Bootstrap | External API | HTTP | JWT
+                            Ruby on Rails | React.js | React-Router | React-Bootstrap | custom CSS | External APIs | JWT | PostgreSQL.
                         </p>
 
                         <p>
