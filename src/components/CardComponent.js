@@ -17,9 +17,9 @@ export default class CardComponent extends Component {
                     <Work />
                 </div>
 
-                <div>
+                {/* <div>
                     <Skills />
-                </div>
+                </div> */}
                 
                 <div>
                     <ContactForm />

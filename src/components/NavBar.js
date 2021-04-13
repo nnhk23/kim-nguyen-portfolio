@@ -42,9 +42,9 @@ export const NavBar = () => {
                         <a className="nav-link nav-names" href="#work">WORK</a>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link nav-names" href="#skills">SKILLS</a>
-                    </li>
+                    </li> */}
 
                     <li className="nav-item">
                         <a className="nav-link nav-names" href="#contact-form">SAY HI</a>

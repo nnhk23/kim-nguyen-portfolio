@@ -1,9 +1,9 @@
 import React from 'react'
 import resume from "../doc/KimNguyenResume.pdf"
 import bioPic from "../img/EC0C04CC-7A91-4C73-8012-A2D1D59EAC9F_1_105_c.jpeg"
-import pic1 from "../img/30D0633C-7187-4269-9EA9-E65495602934_1_105_c.jpeg"
-import pic2 from "../img/947A0943-0C88-4500-BA7E-3842EFABDEC3_1_105_c.jpeg"
-import pic3 from "../img/F6BCA95E-F2D1-4CF7-A9D6-F12F75F42594_1_105_c.jpeg"
+// import pic1 from "../img/30D0633C-7187-4269-9EA9-E65495602934_1_105_c.jpeg"
+// import pic2 from "../img/947A0943-0C88-4500-BA7E-3842EFABDEC3_1_105_c.jpeg"
+// import pic3 from "../img/F6BCA95E-F2D1-4CF7-A9D6-F12F75F42594_1_105_c.jpeg"
 import '../css/Bio.css'
 
 const Bio = () => {
@@ -31,7 +31,7 @@ const Bio = () => {
 
                         <p>
                             <h5 id='bio-content'>
-                                I'm a Grey's Anatomy, HIMYM, GoT fan, animal enthusiast, plant mom. I love playing ACNH, Splatoon, Among Us.
+                                I'm a Grey's Anatomy, HIMYM, GoT fan, animal enthusiast, plant mom and anime lover. I love playing ACNH, Splatoon, Among Us.
                             </h5>
                         </p>
                         

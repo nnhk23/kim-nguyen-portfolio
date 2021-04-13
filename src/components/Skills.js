@@ -3,11 +3,12 @@ import '../css/Skills.css'
 
 const Skills = () => {
     return (
-        <div className='skill-set'>
-            <h1 id='skills'>Skill set</h1>
+        <div className='skill-set' id ="skills">
+            <h1 data-aos="fade-down" id="my-skill">Skill Set</h1>
             Ruby on Rails
-            Postgresql
+            PostgreSQL
             React
+            Redux
             modern Javascript
             SQLite
             Heroku

@@ -1,5 +1,8 @@
 .skill-set {
     height: 30rem;
-    align-items: center;
     background: rgb(230, 227, 227);
+}
+
+#my-skill {
+    text-align: center;
 }

@@ -70,8 +70,6 @@ h2 {
 @media only screen and (max-width: 1450px) {
     #work {
         padding: 1rem 0 1rem 0;
-        background-color: rgb(240, 240, 239);
-        align-items: center;
     }
 
     .container {
@@ -99,8 +97,6 @@ h2 {
 @media only screen and (max-width: 600px){
     #work {
         padding: 1rem 0 1rem 0;
-        background-color: rgb(240, 240, 239);
-        align-items: center;
     }
 
     .container {
