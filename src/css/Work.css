@@ -1,7 +1,5 @@
 #work {
-    padding-top: 8rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding: 8rem;
     background-color: rgb(240, 240, 239);
     align-items: center;
 }
@@ -71,9 +69,7 @@ h2 {
 
 @media only screen and (max-width: 1450px) {
     #work {
-        padding-top: 1rem;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 1rem 0 1rem 0;
         background-color: rgb(240, 240, 239);
         align-items: center;
     }
@@ -102,9 +98,7 @@ h2 {
 
 @media only screen and (max-width: 600px){
     #work {
-        padding-top: 1rem;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 1rem 0 1rem 0;
         background-color: rgb(240, 240, 239);
         align-items: center;
     }

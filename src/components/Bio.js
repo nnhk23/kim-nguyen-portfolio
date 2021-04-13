@@ -60,13 +60,13 @@ const Bio = () => {
                 </div>
             </div>
 
-            <div data-aos="zoom-in" className='pic-wraper'>
+            {/* <div data-aos="zoom-in" className='pic-wraper'>
                 <img src={pic1} alt='pic' className="bio-pic1"/>
             
                 <img src={pic2} alt='pic' className="bio-pic1" />
 
                 <img src={pic3} alt='pic' className="bio-pic1" />
-            </div>
+            </div> */}
 
         </div>
     )

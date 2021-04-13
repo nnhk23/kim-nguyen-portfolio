@@ -3,8 +3,8 @@ import '../css/Skills.css'
 
 const Skills = () => {
     return (
-        <div id='skills' className='skill-set'>
-            Skill set:
+        <div className='skill-set'>
+            <h1 id='skills'>Skill set</h1>
             Ruby on Rails
             Postgresql
             React
