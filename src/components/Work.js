@@ -32,6 +32,8 @@ const Work = () => {
                             <a href="https://github.com/nnhk23/makegotchi-frontend" target="_blank" rel="noreferrer" >Github </a>
                             |
                             <a href="https://makegotchi.herokuapp.com/" target="_blank" rel="noreferrer" > Deployed App</a>
+                            |
+                            <a href="https://www.youtube.com/watch?v=9OdEy-ijv_U" target="_blank" rel="noreferrer" > Demo</a>
                         </p>
 
                     </div>
@@ -61,6 +63,8 @@ const Work = () => {
                             <a href="https://github.com/nnhk23/hipstew_frontend" target="_blank" rel="noreferrer" >Github </a>
                             |
                             <a href="https://hipstew.herokuapp.com/" target="_blank" rel="noreferrer" > Deployed App</a>
+                            |
+                            <a href="https://www.youtube.com/watch?v=A7Hr_E2PJjY" target="_blank" rel="noreferrer" > Demo</a>
                         </p>
 
                     </div>
